@@ -1,0 +1,165 @@
+.footer {
+    background-color: #282828;
+    color: #fff;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footer-container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    margin-right: 110px;
+}
+
+.footer-logo img {
+    width: 180px;
+}
+
+.footer-nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav-item {
+    font-size: 18px;
+}
+
+.footer-nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-quick-contact {
+    margin: 0px 110px;
+    text-align: left;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+    color: #2F70D9;
+}
+
+.footer-button {
+    width: 210px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.footer-button-reserve {
+    background-color: #D95845;
+    color: white;
+}
+
+.footer-button-callback {
+    background-color: #3498db;
+    color: white;
+}
+
+.footer-back-to-top {
+    margin-right: 110px;
+    text-align: center;
+    padding-top: 74px;
+}
+
+.footer-top-button {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer-contacts {
+    text-align: left;
+}
+
+.footer-address,
+.footer-phone {
+    margin: 5px 0;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-social-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-rights {
+    font-size: 18px;
+}
+
+@media (max-width: 1200px) {
+    .footer ul{
+        display: none;
+    }
+
+    .footer-top-button{
+        display: none;
+    }
+
+    .footer-logo{
+        margin: 0;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+    }
+
+    .footer-button {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 20px;
+    }
+
+    .footer-button {
+        width: 100%;
+    }
+
+    .footer-top-button {
+        font-size: 20px;
+    }
+
+    .footer-rights {
+        font-size: 16px;
+    }
+
+    .footer-quick-contact{
+        margin: 0;
+    }
+}

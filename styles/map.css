@@ -1,0 +1,91 @@
+.map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.map__container {
+    width: 1230px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bb {
+    border: 2px solid red;
+}
+
+.map-img {
+    width: 1230px;
+    height: 503px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.map__card{
+    width: 355px;
+    height: 435px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px 0px #0000001A;
+    position: absolute;
+    z-index: 100;
+    top: 21%;
+    left: 10%;
+    background-color: white;
+}
+
+.map__card-container{
+    width: 258px;
+    height: 435px;
+    margin: 32px 49px 31px 48px;
+}
+
+.map__contact{
+    font-size: 50px;
+    color: #2F70D9;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+}
+
+h3{
+    color: #686868;
+}
+
+.map__address{
+    font-size: 16px;
+    color: #686868;
+}
+
+.map__numbers{
+    width: 253px;
+    height: 92px;
+    margin-top: 25px;
+}
+
+.map__number{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.map__icon{
+    width: 60px;
+    height: 60px;
+}
+
+.map__icon-container{
+    display: flex;
+    gap: 30px; 
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin: 25px 0px 0px 0px;
+}
+
+@media (max-width: 421px){
+    .map__card{
+        position: static;
+    }
+}

@@ -1,0 +1,152 @@
+.firstScreen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: url('images/background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    position: relative;
+}
+
+.firstScreen__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.firstScreen__image {
+    width: 706px;
+    margin-left: auto;
+}
+
+.firstScreen__image img {
+    width: 100%;
+    height: auto;
+}
+
+.firstScreen__content {
+    max-width: 390px;
+    width: 100%;
+    margin-right: auto;
+}
+
+.firstScreen__title {
+    font-size: 50px;
+    color: #2F70D9;
+    font-weight: 700;
+}
+
+.firstScreen__description {
+    margin: 20px 0;
+    color: #686868;
+}
+
+.firstScreen__button {
+    width: 285px;
+    height: 65px;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #D95845;
+    border: none;
+}
+
+/* Медиа-запросы */
+@media (max-width: 479px) {
+    .firstScreen__container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .firstScreen__image {
+        width: 100%;
+        order: 1;
+        margin-top: 100px;
+    }
+
+    .firstScreen__content {
+        width: 100%;
+        order: 2;
+        margin: 20px 0;
+    }
+
+    .firstScreen__title{
+        font-size: 45px;
+    }
+
+    .firstScreen{
+        margin: 0;
+        padding: 0;
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .firstScreen__container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 250px;
+    }
+
+    .firstScreen__image {
+        width: 100%;
+        order: 1;
+    }
+
+    .firstScreen__content {
+        width: 100%;
+        order: 2;
+        margin: 20px 0;
+    }
+
+    .firstScreen__title{
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .firstScreen__container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .firstScreen__image {
+        width: 100%;
+        order: 1;
+    }
+
+    .firstScreen__content {
+        width: 100%;
+        order: 2;
+        margin: 20px 0;
+    }
+
+    .firstScreen__title{
+        font-style: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .firstScreen__description{
+        margin: 20px;
+    }
+
+    .firstScreen__button{
+        margin: 20px;
+    }
+}
